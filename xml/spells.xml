@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spells>
+  <spell>
+    <name>Shocking Grasp</name>
+    <effect>DEX Saving Throw. On Hit: Target takes 1d8 Lightning, no reactions next turn. Target with Heavy Armor made of metal has Disadvantage. (2d8@5, 3d8@10, 4d8@15, 5d8@20)</effect>
+    <level>Cantrip</level>
+    <range>5 Feet</range>
+    <action>1 Action</action>
+    <duration>Instantaneous</duration>
+    <prepared>True</prepared>
+    <known>True</known>
+  </spell>
+  <spell>
+    <name>Ray of Frost</name>
+    <effect>Range attack, with bonus = magic ability mod + spellcasting bonus. On hit: Target takes 1d8 Cold, speed reduced by 10feet until your next turn. (2d8@5, 3d8@10, 4d8@15, 5d8@20)</effect>
+    <level>Cantrip</level>
+    <range>50 Feet</range>
+    <action>1 Action</action>
+    <duration>Instantaneous</duration>
+  </spell>
+  <spell>
+    <name>Read Magic</name>
+    <effect>Object within range, decipher magical writing, include other\'s spell books, spell on scroll, mystical runes, magic glyph. Does not activate or identify magic properties. Intelligible for the duration of the spell. Components: Clear Crystal or Mineral Prism worth at least 5GP, not consumed.</effect>
+    <level>1</level>
+    <range>10 Feet</range>
+    <action>1 Action</action>
+    <duration>10 Minutes</duration>
+  </spell>
+  <spell>
+    <name>Detect Magic</name>
+    <effect>Sense magic within 25 feet. Spend an action to see aura of sensed magic, and learn school of magic. Blocked by 1 foot of stone, 1 inch of common metal, thin sheet of lead, 3 feet of wood or dirt.</effect>
+    <level>1</level>
+    <range>Self</range>
+    <action>1 Action</action>
+    <duration>Concentration, up to 10 Minutes</duration>
+  </spell>
+  <spell>
+    <name>Burning Hands</name>
+    <effect>Each creature in a 15 foot cone must make a DEX Saving Throw. On Hit: 3d6 Fire, half damage on miss. Ignites flammable objects not being worn or carried. (When used in a 2nd level slot or higher, damage increases by 1d6 for each level above 1)</effect>
+    <level>1</level>
+    <range>Self</range>
+    <action>1 Action</action>
+    <duration>Instantaneous</duration>
+  </spell>
+  <spell>
+    <name>Magic Missile</name>
+    <effect>3 Glowing darts, each hits a creature of choice. 1d4+1 Force Damage. (When used in a 2nd level slot or higher, creates 1 more dart for each above level 1) </effect>
+    <level>1</level>
+    <range/>
+    <action>1 Action</action>
+    <duration>Instantaneous</duration>
+  </spell>
+  <spell>
+    <name/>
+    <effect/>
+    <level/>
+    <range/>
+    <action/>
+    <duration/>
+  </spell>
+  <spell>
+    <name></name>
+    <effect></effect>
+    <level></level>
+    <range></range>
+    <action></action>
+    <duration></duration>
+  </spell>
+</spells>

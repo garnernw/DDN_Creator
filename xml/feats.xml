@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feats>
+	<feat>
+		<name>Magic Adept</name>
+		<description>Prerequisite: Arcane Initiate, Divine Initiate, or Druidic Initiate feat 
+		Choose one 2nd-level spell from the same spell list you used for the prerequisite feat. You learn that spell and can cast it once per day.</description>
+	</feat>
+</feats>

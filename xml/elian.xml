@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character
+xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.60secclan.com/DDN/xml/schema.xsd">
+  <!-- general info -->
+	<general>
+		<name>Elian Impkith</name>
+		<player>Austin</player>
+		<alignment>Lawful Evil</alignment>
+		<deity>Asmodeus</deity>
+		<race>Tiefling</race>
+		<class>Mage</class>
+		<level>2</level>
+		<gender>Male</gender>
+		<hair>Brown</hair>
+		<eyes>Black</eyes>
+		<size>Medium</size>
+		<height>5'10"</height>
+		<weight>160</weight>
+		<exp>321</exp>
+		<nextlevel>750</nextlevel>
+		<initiative>2</initiative>
+		<proficiencybonus>1</proficiencybonus>
+		<vision>Low-Light</vision>
+		<speed>30</speed>
+		<carry>110</carry>
+		<maxcarry>220</maxcarry>
+		<maxmove>550</maxmove>
+		<!-- health info -->
+		<maxhitpoints>8</maxhitpoints>
+		<hitdice>d6</hitdice>
+		<hitdicecount>1</hitdicecount>
+		<!--other stuff-->
+		<background>Sage</background>
+		<notes>100GP in Bank</notes>
+	</general>
+	
+	<!-- Armor info -->
+	<armors>
+		<armor>
+			<name>Heavy Armor</name>
+			<value>16</value>
+		</armor>
+		<armor>
+			<name>Light Armor</name>
+			<value>14</value>
+		</armor>
+		<armor>
+			<name>No Armor</name>
+			<value>12</value>
+		</armor>
+	</armors>
+	
+	<!-- Languages -->
+	<languages>
+		<language>
+			<name>Common</name>
+		</language>
+		<language>
+			<name>Dwarvish</name>
+		</language>
+		<language>
+			<name>Infernal</name>
+		</language>
+		<language>
+			<name>Elvish</name>
+		</language>
+		<language>
+			<name>Draconic</name>
+		</language>
+	</languages>
+
+	<!-- racial traits -->
+	<traits>
+		<trait>
+			<name>Low-Light Vision</name>
+			<description>You can see in dim light as well as you do in bright light.</description>
+		</trait>
+		<trait>
+			<name>Hellish Resistance</name>
+			<description>You have resistance to fire damage.</description>
+		</trait>
+		<trait>
+			<name>Infernal Wrath</name>
+			<description>When not at full health you may make one attack with advantage or cast one spell and give disadvantage to your target(s) on their saving throw.
+			You may not do so again until you take a short or long rest.</description>
+		</trait>
+		<trait>
+			<name>Infernal Nature</name>
+			<description>You are a descendant of devils. You can speak Infernal.</description>
+		</trait>
+	</traits>
+
+	<!-- class features -->
+	<features>
+		<feature>
+			<name>Weapon Proficiency - Dagger</name>
+			<description>You are proficient with melee daggers.</description>
+		</feature>
+		<feature>
+			<name>Weapon Proficiency - Quarterstaff</name>
+			<description>You are proficient with melee quarterstaffs.</description>
+		</feature>
+		<feature>
+			<name>Weapon Proficiency - Dart</name>
+			<description>You are proficient with ranged darts.</description>
+		</feature>
+		<feature>
+			<name>Weapon Proficiency - Sling</name>
+			<description>You are proficient with ranged slings.</description>
+		</feature>
+		<feature>
+			<name>Weapon Proficiency - Light Crossbow</name>
+			<description>You are proficient with ranged light crossbows.</description>
+		</feature>
+		<feature>
+			<name>Saving Throw - WIS</name>
+			<description>You can make wisdom saving throws at d20 + WIS modifier.</description>
+		</feature>
+		<feature>
+			<name>Saving Throw - INT</name>
+			<description>You can make intelligence saving throws at d20 + INT modifier.</description>
+		</feature>
+		<feature>
+			<name>Arcane Tradition - Evocation</name>
+			<description>You focus your study on elemental magics.</description>
+		</feature>
+		<feature>
+			<name>Sculpt Spells</name>
+			<description>When you cast an evocation spell that effects other creatures, you may choose a number of creatures equal to the spells level plus one.
+			These creatures automatically succeed on the saving throw of the spell and take no damage if they save.</description>
+		</feature>
+	</features>
+
+	<!-- proficiencies -->
+	<proficiencies>
+		<proficient>
+			<name>Dagger</name>
+		</proficient>
+		<proficient>
+			<name>Quarterstaff</name>
+		</proficient>
+		<proficient>
+			<name>Dart</name>
+		</proficient>
+		<proficient>
+			<name>Sling</name>
+		</proficient>
+		<proficient>
+			<name>Light Crossbow</name>
+		</proficient>
+	</proficiencies>
+
+	<!-- attributes -->
+	<attributes>
+		<attribute>
+			<name>STR</name>
+			<value>11</value>
+			<mod>0</mod>
+		</attribute>
+		<attribute>
+			<name>DEX</name>
+			<value>15</value>
+			<mod>2</mod>
+		</attribute>
+		<attribute>  
+			<name>CON</name>
+			<value>14</value>
+			<mod>2</mod>
+		</attribute>
+		<attribute>
+			<name>INT</name>
+			<value>16</value>
+			<mod>3</mod>
+		</attribute>
+		<attribute>
+			<name>WIS</name>
+			<value>13</value>
+			<mod>1</mod>
+		</attribute>
+		<attribute>
+			<name>CHA</name>
+			<value>13</value>
+			<mod>1</mod>
+		</attribute>
+	</attributes>
+
+	<!-- Money -->
+	<monies>
+		<money>
+			<name>Copper</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Silver</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Gold</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Platinum</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Runic</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Mithril</name>
+			<value>1</value>
+		</money>
+		<money>
+			<name>Astral Diamond</name>
+			<value>1</value>
+		</money>
+	</monies>
+
+	<!-- Skills -->
+	<skills>
+		<skill>
+			<name>Acrobatics</name>
+			<trained>False</trained>
+			<attribute>DEX</attribute>
+		</skill>
+		<skill>
+			<name>Animal Handling</name>
+			<trained>False</trained>
+			<attribute>WIS</attribute>
+		</skill>
+		<skill>
+			<name>Arcana</name>
+			<trained>True</trained>
+			<attribute>INT</attribute>
+		</skill>
+		<skill>
+			<name>Athletics</name>
+			<trained>False</trained>
+			<attribute>STR</attribute>
+		</skill>
+		<skill>
+			<name>Deception</name>
+			<trained>False</trained>
+			<attribute>CHA</attribute>
+		</skill>
+		<skill>
+			<name>History</name>
+			<trained>False</trained>
+			<attribute>INT</attribute>
+		</skill>
+		<skill>
+			<name>Insight</name>
+			<trained>True</trained>
+			<attribute>WIS</attribute>
+		</skill>
+		<skill>
+			<name>Intimidation</name>
+			<trained>False</trained>
+			<attribute>CHA</attribute>
+		</skill>
+		<skill>
+			<name>Medicine</name>
+			<trained>False</trained>
+			<attribute>WIS</attribute>
+		</skill>
+		<skill>
+			<name>Nature</name>
+			<trained>False</trained>
+			<attribute>INT</attribute>
+		</skill>
+		<skill>
+			<name>Perception</name>
+			<trained>True</trained>
+			<attribute>WIS</attribute>
+		</skill>
+		<skill>
+			<name>Performance</name>
+			<trained>False</trained>
+			<attribute>CHA</attribute>
+		</skill>
+		<skill>
+			<name>Persuasion</name>
+			<trained>False</trained>
+			<attribute>CHA</attribute>
+		</skill>
+		<skill>
+			<name>Religion</name>
+			<trained>False</trained>
+			<attribute>INT</attribute>
+		</skill>
+		<skill>
+			<name>Search</name>
+			<trained>True</trained>
+			<attribute>INT</attribute>
+		</skill>
+		<skill>
+			<name>Sleight of Hand</name>
+			<trained>False</trained>
+			<attribute>DEX</attribute>
+		</skill>
+		<skill>
+			<name>Stealth</name>
+			<trained>False</trained>
+			<attribute>DEX</attribute>
+		</skill>
+		<skill>
+			<name>Survival</name>
+			<trained>False</trained>
+			<attribute>WIS</attribute>
+		</skill>
+	</skills>
+
+	<!-- Feats -->
+	<feats>
+		<feat>
+			<name>Magic Adept</name>
+			<description>Prerequisite: Arcane Initiate, Divine Initiate, or Druidic Initiate feat 
+			Choose one 2nd-level spell from the same spell list you used for the prerequisite feat. You learn that spell and can cast it once per day.</description>
+		</feat>
+	</feats>
+
+	<!-- Spells -->
+	<spells>
+		<spell>
+			<name>Shocking Grasp</name>
+			<effect>DEX Saving Throw. On Hit: Target takes 1d8 Lightning, no reactions next turn. Target with Heavy Armor made of metal has Disadvantage. (2d8@5, 3d8@10, 4d8@15, 5d8@20)</effect>
+			<level>Cantrip</level>
+			<range>5 Feet</range>
+			<action>1 Action</action>
+			<duration>Instantaneous</duration>
+			<prepared>True</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Ray of Frost</name>
+			<effect>Range attack, with bonus = magic ability mod + spellcasting bonus. On hit: Target takes 1d8 Cold, speed reduced by 10feet until your next turn. (2d8@5, 3d8@10, 4d8@15, 5d8@20)</effect>
+			<level>Cantrip</level>
+			<range>50 Feet</range>
+			<action>1 Action</action>
+			<duration>Instantaneous</duration>
+			<prepared>True</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Read Magic</name>
+			<effect>Object within range, decipher magical writing, include other's spell books, spell on scroll, mystical runes, magic glyph. Does not activate or identify magic properties. Intelligible for the duration of the spell. Components: Clear Crystal or Mineral Prism worth at least 5GP, not consumed.</effect>
+			<level>1</level>
+			<range>10 Feet</range>
+			<action>1 Action</action>
+			<duration>10 Minutes</duration>
+			<prepared>False</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Detect Magic</name>
+			<effect>Sense magic within 25 feet. Spend an action to see aura of sensed magic, and learn school of magic. Blocked by 1 foot of stone, 1 inch of common metal, thin sheet of lead, 3 feet of wood or dirt.</effect>
+			<level>1</level>
+			<range>Self</range>
+			<action>1 Action</action>
+			<duration>Concentration, up to 10 minutes</duration>
+			<prepared>False</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Burning Hands</name>
+			<effect>Each creature in a 15 foot cone must make a DEX Saving Throw. On Hit: 3d6 Fire, half damage on miss. Ignites flammable objects not being worn or carried. (When used in a 2nd level slot or higher, damage increases by 1d6 for each level above 1)</effect>
+			<level>1</level>
+			<range>Self</range>
+			<action>1 Action</action>
+			<duration>Instantaneous</duration>
+			<prepared>False</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Mage Armor</name>
+			<effect>Willing creature, not wearing armor. Base AC - 13+ DEX MOD. Ends if target dons armor or is dismissed (1 Action). Components: 1 piece of Cured Leather</effect>
+			<level>1</level>
+			<range>Touch</range>
+			<action>1 Action</action>
+			<duration>8 Hours</duration>
+			<prepared>True</prepared>
+			<known>True</known>
+		</spell>
+		<spell>
+			<name>Magic Missile</name>
+			<effect>3 Glowing darts, each hits a creature of choice. 1d4+1 Force Damage. (When used in a 2nd level slot or higher, creates 1 more dart for each above level 1) </effect>
+			<level>1</level>
+			<range/>
+			<action>1 Action</action>
+			<duration>Instantaneous</duration>
+			<prepared>True</prepared>
+			<known>True</known>
+		</spell>
+	</spells>
+
+	<!-- Consumables - Arrows, potions, torches -->
+	<consumables>
+		<consumable>
+			<name>Candle</name>
+			<weight>0.5</weight>
+			<quantity>10</quantity>
+		</consumable>
+		<consumable>
+			<name>Paper</name>
+			<weight>0</weight>
+			<quantity>10</quantity>
+		</consumable>
+		<consumable>
+			<name>Torches</name>
+			<weight>1</weight>
+			<quantity>10</quantity>
+		</consumable>
+		<consumable>
+			<name>Rations</name>
+			<weight>1</weight>
+			<quantity>10</quantity>
+		</consumable>
+	</consumables>
+
+	<!-- Items -->
+	<items>
+		<item>
+			<name>Abacus</name>
+			<description>A device used for counting and mathmatic calculations.</description>
+			<weight>2</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Consecration Kit</name>
+			<description>Kit used for consecrating shit.</description>
+			<weight>0</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Spell Book</name>
+			<description>Leather bound tome with 100 pages of blank parchment. Can serve as a magic focus.</description>
+			<weight>3</weight>
+			<location>Belt</location>
+		</item>
+		<item>
+			<name>Ink</name>
+			<description>An inkwell filled with ink.</description>
+			<weight>0</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Pen</name>
+			<description>A feather quill used for writing.</description>
+			<weight>0</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Rope</name>
+			<description>50 feet of hempen rope.</description>
+			<weight>10</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Sack</name>
+			<description>Drawstring burlap bag. Can hold 1 cubic foot of material or about 30 pounds of gear.</description>
+			<weight>.5</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Backpack</name>
+			<description>Leather pack worn on the back. Can hold 1 cubic foot of material or about 30 pounds of gear.</description>
+			<weight>2</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Healer's Kit</name>
+			<description>Leather pouch containing bandages, salves, and splints. Kit has 10 uses. You can expend 1 use as an action to stabilize a creature with 0 hit points.
+			If you have proficiency with Healer's Kit expending a use lets you add your proficiency bonus to your Medicine(WIS) check to administer other forms of first aid.</description>
+			<weight>1</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Mess Kit</name>
+			<description>Tin box containing a cup and simple cutlery. Box clamps together and one side can be used as a cooking pan and the other side as a plate or shallow bowl.</description>
+			<weight>1</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Tinderbox</name>
+			<description>Small container containing flint, firesteel, and tinder. Lighting a torch with the flint and steel takes an action and lighting any other fire takes at least that long.</description>
+			<weight>1</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Waterskin</name>
+			<description>Waterskin can hold up to 4 pints of liquid.</description>
+			<weight>4</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Bandolier</name>
+			<description>Leather belt that straps around the shoulder. Has 10 pouches that can hold potions and spell components.</description>
+			<weight>1</weight>
+			<location>Bag</location>
+		</item>
+		<item>
+			<name>Bedroll</name>
+			<description>A roll of blankets that can be layed out to sleep on.</description>
+			<weight>5</weight>
+			<location>Bag</location>
+		</item>
+	</items>
+
+	<!-- Equipment -->
+	<equipments>
+		<equipment>
+			<name>Quarterstaff</name>
+			<description>A simple wooden quarterstaff.</description>
+			<weight>4</weight>
+			<location>Equipped</location>
+			<damage>1d6</damage>
+			<damagetype>Bludgeon</damagetype>
+		</equipment>
+		<equipment>
+			<name>Robes</name>
+			<description>Simple caster's robes.</description>
+			<weight>1</weight>
+			<location>Equipped</location>
+			<ACBonus>0</ACBonus>
+		</equipment>
+	</equipments>
+
+	<!-- treasure -->
+	<treasures>
+		<treasure>
+			<name>Ruby</name>
+			<description>Large uncut ruby</description>
+			<weight>1</weight>
+		</treasure>
+		<treasure>
+			<name>My Precious</name>
+			<description>One ring to rule them all...</description>
+			<weight>1</weight>
+		</treasure>
+	</treasures>
+
+	<background>
+		<name>Sage</name>
+		<bgtrait>Researcher</bgtrait>
+		<description>When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the universe can require an adventure or even a whole campaign.</description>
+		<bgproficiencies>Skills: Arcana, History, Search</bgproficiencies>
+		<bglanguages>Three additional languages</bglanguages>
+		<bgequipment>Robe, ten candles, abacus, consecration kit, tome of spiritual teachings, ink, ink pen, paper (ten sheets), 12 gp, 8 sp, and 8 cp</bgequipment>
+	</background>
+	<!-- End of Character -->
+</character>
