@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<equipments>
+  <equipment>
+    <name>Quarterstaff</name>
+    <description>A simple wooden quarterstaff.</description>
+    <weight>4</weight>
+    <location>Equipped</location>
+    <damage>1d6</damage>
+    <damagetype>Bludgeon</damagetype>
+    <ACBonus/>
+  </equipment>
+  <equipment>
+    <name>Robes</name>
+    <description>Simple caster's robes.</description>
+    <weight>1</weight>
+    <location>Equipped</location>
+    <damage/>
+    <damagetype/>
+    <ACBonus>0</ACBonus>
+  </equipment>
+  <equipment>
+    <name>Handaxe</name>
+    <description>A light axe that can be wielded in one hand.</description>
+    <weight>3</weight>
+    <location>Equipped</location>
+    <damage>1d6</damage>
+    <damagetype>Slashing</damagetype>
+    <ACBonus></ACBonus>
+  </equipment>
+</equipments>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="character">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="general">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="player" type="xs:string" />
+              <xs:element name="alignment" type="xs:string" />
+              <xs:element name="diety" type="xs:string" />
+              <xs:element name="race" type="xs:string" />
+              <xs:element name="class" type="xs:string" />
+              <xs:element name="level" type="xs:unsignedByte" />
+              <xs:element name="gender" type="xs:string" />
+              <xs:element name="hair" type="xs:string" />
+              <xs:element name="eyes" type="xs:string" />
+              <xs:element name="size" type="xs:string" />
+              <xs:element name="height" type="xs:string" />
+              <xs:element name="weight" type="xs:unsignedByte" />
+              <xs:element name="exp" type="xs:unsignedByte" />
+              <xs:element name="nextlevel" type="xs:unsignedByte" />
+              <xs:element name="initiative" type="xs:unsignedByte" />
+              <xs:element name="proficiencybonus" type="xs:unsignedByte" />
+              <xs:element name="vision" type="xs:string" />
+              <xs:element name="speed" type="xs:unsignedByte" />
+              <xs:element name="carry" type="xs:unsignedByte" />
+              <xs:element name="maxcarry" type="xs:unsignedByte" />
+              <xs:element name="maxmove" type="xs:unsignedShort" />
+              <xs:element name="hitpoints" type="xs:unsignedByte" />
+              <xs:element name="hitdice" type="xs:string" />
+              <xs:element name="hitdicecount" type="xs:unsignedByte" />
+              <xs:element name="background" type="xs:string" />
+              <xs:element name="notes" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="armors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="armor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="noarmor" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="armorclass" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="languages">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="language">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="traits">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="trait">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="features">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="feature">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="proficiencies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="proficient">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="attributes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="attribute">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="cha" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="wis" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="int" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="con" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="dex" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="str" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="monies">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="money">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="diamond" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="mithril" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="runic" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="platinum" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="gold" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="silver" type="xs:unsignedByte" />
+                    <xs:element minOccurs="0" name="copper" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="skills">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="skill">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="survival" type="xs:string" />
+                    <xs:element minOccurs="0" name="stealth" type="xs:string" />
+                    <xs:element minOccurs="0" name="sleightofhand" type="xs:string" />
+                    <xs:element minOccurs="0" name="search" type="xs:string" />
+                    <xs:element minOccurs="0" name="religion" type="xs:string" />
+                    <xs:element minOccurs="0" name="persuasion" type="xs:string" />
+                    <xs:element minOccurs="0" name="performance" type="xs:string" />
+                    <xs:element minOccurs="0" name="perception" type="xs:string" />
+                    <xs:element minOccurs="0" name="nature" type="xs:string" />
+                    <xs:element minOccurs="0" name="medicine" type="xs:string" />
+                    <xs:element minOccurs="0" name="intimidation" type="xs:string" />
+                    <xs:element minOccurs="0" name="insight" type="xs:string" />
+                    <xs:element minOccurs="0" name="history" type="xs:string" />
+                    <xs:element minOccurs="0" name="deception" type="xs:string" />
+                    <xs:element minOccurs="0" name="athletics" type="xs:string" />
+                    <xs:element minOccurs="0" name="arcana" type="xs:string" />
+                    <xs:element minOccurs="0" name="animal" type="xs:string" />
+                    <xs:element minOccurs="0" name="acrobatics" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="feats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="feat">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" />
+                    <xs:element name="description" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spells">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="spell">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="effect" type="xs:string" />
+                    <xs:element name="level" type="xs:string" />
+                    <xs:element name="range" type="xs:string" />
+                    <xs:element name="action" type="xs:string" />
+                    <xs:element name="duration" type="xs:string" />
+                    <xs:element name="prepared" type="xs:string" />
+                    <xs:element name="known" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="consumables">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="consumable">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="used" type="xs:unsignedByte" />
+                    <xs:element name="available" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="items">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="item">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="weight" type="xs:unsignedByte" />
+                    <xs:element name="location" type="xs:string" />
+                    <xs:element name="damage" type="xs:string" />
+                    <xs:element name="damagetype" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="treasures">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="treasure">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="weight" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

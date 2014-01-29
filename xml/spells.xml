@@ -50,20 +50,4 @@
     <action>1 Action</action>
     <duration>Instantaneous</duration>
   </spell>
-  <spell>
-    <name/>
-    <effect/>
-    <level/>
-    <range/>
-    <action/>
-    <duration/>
-  </spell>
-  <spell>
-    <name></name>
-    <effect></effect>
-    <level></level>
-    <range></range>
-    <action></action>
-    <duration></duration>
-  </spell>
 </spells>
