@@ -1,4 +1,9 @@
 <h1>Add Spells Form</h1>
+<?php 
+if (isset($_POST["name"])) {
+    PostData();
+}
+?>
 <form action="" method="post">
     <p>Name: <input type="text" name="name" /></p>
 	<p>Level: <input type="text" name="level" /></p>
@@ -9,7 +14,8 @@
     <p><input type="submit" value="Add" name="add" /></p>
 </form>
 
-<?php
+<?php function PostData()
+{
 $name = $_POST['name'];
 $effect = $_POST['effect'];
 $level = $_POST['level'];
@@ -45,4 +51,5 @@ $xml->getElementsByTagName('spells')->item(0)->appendChild($newItem);
 $xml->save('xml/spells.xml');
 
 $_POST = array();
+}
 ?>
